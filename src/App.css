@@ -1,0 +1,184 @@
+.App {
+  text-align: center;
+  max-width: 550px;
+  margin: 50px auto;
+  background: white;
+  border-radius: 8.95px;
+  text-align: left;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.logo-bar {
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  font-size: 0;
+  padding: 30px 20px;
+  text-align: left;
+}
+
+.logo-bar img {
+  max-width: 82px;
+}
+
+.banner-content-container {
+  padding: 26px 36px 0;
+}
+
+.hero-banner-wrapper {
+  font-size: 0;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.hero-banner-wrapper img {
+  width: 100%;
+  max-width: 395px;
+}
+
+.content-wrapper h1 {
+  margin-top: 0;
+  font-weight: 600;
+  margin-bottom: 16px;
+  font-size: 36px;
+}
+
+.content-wrapper p {
+  max-width: 300px;
+  margin-bottom: 20px;
+  margin-top: 0;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.content-wrapper p:nth-last-of-type(1) {
+  margin-bottom: 0;
+}
+
+.content-wrapper {
+  margin-bottom: 49px;
+}
+
+.card-main-container {
+  padding: 0 36px 30px;
+}
+
+.card-main-container .card-list {
+  max-width: 176px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.card-list .image-wrapper {
+  position: relative;
+}
+
+.card-list .image-wrapper img {
+  border-radius: 9px;
+}
+
+.card-list .image-wrapper {
+  font-size: 0;
+  margin-bottom: 9px;
+}
+
+.card-list .image-wrapper .sold-out {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background: #FFFFFF;
+  border-radius: 2px;
+  font-weight: 400;
+  font-size: 10px;
+  padding: 5px 6px;
+  text-transform: uppercase;
+}
+
+img {
+  width: 100%;
+}
+
+.review-country-wrapper {
+  display: flex;
+  margin-bottom: 8px;
+  font-size: 12px;
+}
+
+.country-wrapper {
+  color: #918E9B;
+}
+
+.country-wrapper ul {
+  margin: 0;
+  padding-left: 26px;
+}
+
+.review-wrapper:before {
+  content: '';
+  width: 13px;
+  height: 12px;
+  background-image: url('../src/assets/images/star.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin-right: 3px;
+}
+
+.review-wrapper {
+  display: inline-flex;
+  align-items: center;
+}
+
+.review-wrapper span {
+  color: #918E9B;
+  display: inline-block;
+  margin-left: 2px;
+}
+
+.card-content-wrapper .name-wrapper {
+  font-weight: 300;
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+.card-content-wrapper .cost-wrapper {
+  font-size: 12px;
+}
+
+.card-content-wrapper .cost-wrapper strong {
+  font-weight: 600;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
