@@ -1,11 +1,17 @@
-import swimmer from '../assets/images/swimming.png';
-
 function Card(props) {
+    let status;
+
+    if (props.openSpots === 0) {
+        status = 'SOLD OUT';
+    } else if (props.location.toLowerCase() === 'online') {
+        status = 'ONLINE';
+    }
+
     return (
         <div className="card-list">
             <div className="image-wrapper">
-                <img src={props.img} alt={props.name}/>
-                <div className="sold-out">{props.status}</div>
+                <img src={`../assets/images/${props.img}`} alt={props.name}/>
+                {status && <div className="sold-out"><strong>{status}</strong></div>}
             </div>
             <div className="card-content-wrapper">
                 <div className="review-country-wrapper">

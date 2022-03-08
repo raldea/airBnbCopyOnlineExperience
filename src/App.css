@@ -20,7 +20,11 @@
 }
 
 .banner-content-container {
-  padding: 26px 36px 0;
+  padding: 0;
+}
+
+.main-content {
+  padding: 26px 36px 30px;
 }
 
 .hero-banner-wrapper {
@@ -59,13 +63,21 @@
 }
 
 .card-main-container {
-  padding: 0 36px 30px;
+  padding: 0;
+  display: flex;
+  overflow: auto;
 }
 
 .card-main-container .card-list {
   max-width: 176px;
   width: 100%;
-  margin-bottom: 30px;
+  flex: 0 0 auto;
+  margin-bottom: 10px;
+  margin-right: 18px;
+}
+
+.card-main-container .card-list:nth-last-of-type(1) {
+  margin-right: 0;
 }
 
 .card-list .image-wrapper {
